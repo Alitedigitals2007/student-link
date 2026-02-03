@@ -107,3 +107,11 @@ export default function Home() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  // This makes the page dynamic/server-rendered, not static
+  return {
+    props: {},
+    revalidate: false, // No ISR/static caching
+  };
+}
