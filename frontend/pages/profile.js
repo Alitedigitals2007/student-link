@@ -93,3 +93,10 @@ export default function Profile() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+    revalidate: false,
+  };
+}

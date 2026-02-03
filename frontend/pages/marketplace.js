@@ -115,3 +115,10 @@ export default function Marketplace() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+    revalidate: false,
+  };
+}

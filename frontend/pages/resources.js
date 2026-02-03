@@ -120,3 +120,10 @@ export default function Resources() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+    revalidate: false,
+  };
+}

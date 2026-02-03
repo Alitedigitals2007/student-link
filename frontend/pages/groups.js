@@ -79,3 +79,10 @@ export default function Groups() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+    revalidate: false,
+  };
+}

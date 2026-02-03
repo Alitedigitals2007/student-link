@@ -71,3 +71,10 @@ export default function AdminDashboard() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+    revalidate: false,
+  };
+}
