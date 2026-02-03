@@ -1,0 +1,66 @@
+# 🚀 QUICK GITHUB PUSH
+
+## 5-Minute Guide
+
+### 1. Install Git
+Download: https://git-scm.com/download/win
+
+### 2. Configure Git
+```powershell
+git config --global user.name "Your Name"
+git config --global user.email "your-email@gmail.com"
+```
+
+### 3. Create Repo on GitHub
+Go to: https://github.com/new
+- Name: `student-link`
+- Public: ✅
+- Create
+
+### 4. Copy Your Repo URL
+```
+https://github.com/YOUR_USERNAME/student-link.git
+```
+
+### 5. Push Code
+```powershell
+cd c:\Users\hp\Downloads\Student\student-link
+
+git init
+git add .
+git commit -m "Initial commit: Student Link Platform"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/student-link.git
+git push -u origin main
+```
+
+**Replace `YOUR_USERNAME` with your GitHub username!**
+
+### 6. Enter Credentials
+- Username: your GitHub username
+- Password: Your Personal Access Token (from https://github.com/settings/tokens)
+
+---
+
+## ✅ Done!
+
+Your code is now on GitHub at:
+```
+https://github.com/YOUR_USERNAME/student-link
+```
+
+---
+
+## 📚 Next Steps
+
+1. **Deploy Frontend**: Go to vercel.com/new → Import this repo
+2. **Deploy Backend**: Go to render.com → New service → Import this repo
+3. **Live!** Your app is deployed 🎉
+
+---
+
+## 💡 Issues?
+
+- Read full guide: `GITHUB_PUSH.md`
+- Git not working: Install from https://git-scm.com
+- Auth failed: Use personal access token from GitHub
