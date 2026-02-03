@@ -8,6 +8,5 @@
   ],
   "github": {
     "enabled": true
-  },
-  "outputDirectory": "frontend/.next"
+  }
 }
