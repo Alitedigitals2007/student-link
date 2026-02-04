@@ -92,10 +92,3 @@ export default function Competitions() {
     </>
   );
 }
-
-export async function getServerSideProps() {
-  return {
-    props: {},
-    revalidate: false,
-  };
-}
