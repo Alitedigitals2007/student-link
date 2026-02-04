@@ -1,0 +1,14 @@
+{
+  "name": "student-link-main",
+  "private": true,
+  "workspaces": [
+    "student-link-frontend",
+    "student-link-backend"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev:frontend": "npm run dev --workspace=student-link-frontend",
+    "dev:backend": "npm run dev --workspace=student-link-backend",
+    "build:frontend": "npm run build --workspace=student-link-frontend"
+  }
+}
