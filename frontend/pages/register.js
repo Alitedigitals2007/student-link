@@ -21,7 +21,7 @@ export default function Register() {
   const [loading, setLoading] = useState(false);
 
  const tertiaryInstitutions = {
-  universities: [
+  institution: [
     'University of Lagos',
     'University of Ibadan',
     'Abubakar Tafawa Balewa University',
@@ -35,16 +35,12 @@ export default function Register() {
     'University of Benin',
     'University of Ilorin',
     'Federal University of Technology, Akure'
-  ],
-  polytechnics: [
     'Yaba College of Technology',
     'Federal Polytechnic, Ilaro',
     'Auchi Polytechnic',
     'Kaduna Polytechnic',
     'The Polytechnic, Ibadan',
     'Lagos State Polytechnic'
-  ],
-  collegesOfEducation: [
     'Federal College of Education, Akoka',
     'Adeyemi College of Education',
     'Alvan Ikoku Federal College of Education',
