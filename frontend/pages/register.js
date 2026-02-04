@@ -34,13 +34,13 @@ export default function Register() {
     'Bayero University Kano',
     'University of Benin',
     'University of Ilorin',
-    'Federal University of Technology, Akure'
+    'Federal University of Technology, Akure', // Added comma here
     'Yaba College of Technology',
     'Federal Polytechnic, Ilaro',
     'Auchi Polytechnic',
     'Kaduna Polytechnic',
     'The Polytechnic, Ibadan',
-    'Lagos State Polytechnic'
+    'Lagos State Polytechnic', // Added comma here
     'Federal College of Education, Akoka',
     'Adeyemi College of Education',
     'Alvan Ikoku Federal College of Education',
