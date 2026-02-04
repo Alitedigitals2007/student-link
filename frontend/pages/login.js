@@ -68,12 +68,6 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="my-4 text-center text-sm text-gray-600">
-            <p>Demo Admin Credentials:</p>
-            <p>Email: studentlink@admin.com</p>
-            <p>Password: studentlinkadmin</p>
-          </div>
-
           <p className="text-center mt-4">
             Don't have an account?{' '}
             <a href="/register" className="text-teal-600 hover:underline font-bold">
