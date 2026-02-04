@@ -20,7 +20,8 @@ export default function Register() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const universities = [
+ const tertiaryInstitutions = {
+  universities: [
     'University of Lagos',
     'University of Ibadan',
     'Abubakar Tafawa Balewa University',
@@ -31,7 +32,25 @@ export default function Register() {
     'University of Nigeria',
     'Federal University of Technology, Minna',
     'Bayero University Kano',
-  ];
+    'University of Benin',
+    'University of Ilorin',
+    'Federal University of Technology, Akure'
+  ],
+  polytechnics: [
+    'Yaba College of Technology',
+    'Federal Polytechnic, Ilaro',
+    'Auchi Polytechnic',
+    'Kaduna Polytechnic',
+    'The Polytechnic, Ibadan',
+    'Lagos State Polytechnic'
+  ],
+  collegesOfEducation: [
+    'Federal College of Education, Akoka',
+    'Adeyemi College of Education',
+    'Alvan Ikoku Federal College of Education',
+    'Federal College of Education (Special), Oyo'
+  ]
+};
 
   const departments = ['Computer Science', 'Engineering', 'Medicine', 'Law', 'Business', 'Science', 'Arts'];
   const levels = ['100', '200', '300', '400', '500'];
